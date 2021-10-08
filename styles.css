@@ -1,3 +1,13 @@
+		@media(min-width: 450px){
+			.contayner{
+				width: 450px;
+			}
+		}
+		@media(max-width: 449px){
+			.contayner{
+				width: 90%;
+			}
+		}
 		div{
 			text-align: right;	
 			text-size: 14px;
@@ -21,7 +31,7 @@
 		}
 		table{
 			text-align: center;
-			padding-left: 14%;
+			margin: auto;
 		}
 		thead{
 			text-align: center;
@@ -42,7 +52,7 @@
 			font-weight: bold;
 		}
 		#textplace{
-			width: 450px;
+			width: 100%;
 			height:30px;
 			border-radius: 20px;
 			text-align: left;
