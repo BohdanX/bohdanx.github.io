@@ -1,4 +1,4 @@
-		@media(min-width: 1050px){
+		@media(min-width: 450px){
 			.contayner{
 				width: 450px;
 			}
@@ -6,7 +6,7 @@
 				grid-template-columns: 165px 470px 300px;
 			}
 		}
-		@media(max-width: 1049px){
+		@media(max-width: 449px){
 			.contayner{
 				width: 90%;
 			}
