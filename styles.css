@@ -1,11 +1,17 @@
-		@media(min-width: 450px){
+		@media(min-width: 1050px){
 			.contayner{
 				width: 450px;
 			}
+			#grid{
+				grid-template-columns: 165px 470px 300px;
+			}
 		}
-		@media(max-width: 449px){
+		@media(max-width: 1049px){
 			.contayner{
 				width: 90%;
+			}
+			#grid{
+				grid-template-columns: 165px auto 0px;
 			}
 		}
 		div{
@@ -82,7 +88,7 @@
 			display: grid;
 			grid-column-gap: 10px;
 			grid-row-gap: 10px;
-			grid-template-columns: 165px 470px 300px;
+			grid-template-columns: 164px 40% 300px;
 			
 		}
 		.grid-colume{
@@ -107,7 +113,7 @@
 			position: relative;
 			z-index: 2;
 			display: grid;
-			grid-column-gap: 480px;
+			grid-column-gap: 40%;
 			grid-row-gap: 10px;
 			grid-template-columns: 170px 300px;		}
 		.hcol1{
